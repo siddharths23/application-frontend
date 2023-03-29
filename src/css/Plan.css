@@ -1,0 +1,41 @@
+.plan-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.destination-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.destination-description {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.day-plans-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.day-plan-item {
+  margin-bottom: 10px;
+}
+
+.save-plan-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff4c4c;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.save-plan-button:hover {
+  background-color: #e63e3e;
+}
